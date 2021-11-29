@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <!--bootstrap 5.1.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>superheroes</title>
+</head>
+<!--Navbar desde bootstrap-->
+<nav class="navbar navbar-light" style="background-color: grey; text-align: center;">
+  <a class="navbar-brand" href="#">
+      <img src="./assets/img/sh2.jpg" class="d-inline-block aling-top" alt="" width="75" loading="lazy">
+  </a>
+  <h3 class="mx-auto" style="color: white;">Superhero</h3>
+</nav>
+<!--Formulario para la busqueda del superheroe-->
+<section class ="mx-4">
+  <img src="./assets/img/sh1.jpg" class=" mx-auto d-block mt-4 " alt="" width="600" loading="lazy">
+  <h2 class="mx-4">Encuenta tu superhero</h2>
+
+<form class="mx-4">
+    <div class="form-group">
+      <label class="id_superheroe">Ingresa un número entre 1 y 732 y encuentra tu superhero</label>
+      <input type="number" class="form-control mt-2" id="superhero">
+    </div>
+    <button type= "submit" class ="btn btn-primary">Buscar</button>
+  </form>
+</section>
+<!--Seccion donde se muestra la información del superheroe-->
+<section class= "mt-2 row">
+  <div id="resultados" class="col-12 col-sm-12 col-md-6 col-xl-6"></div>
+  <!--Gráfica con información del superheroe-->
+  <div id="chartContainer" style="height: 650px; width:40%;" class="col-12 col-sm-12 col-md-6 col-xl-6"></div>
+</section>
+<footer>
+  <div class="container-fluid bg-dark text-center p-4 text-white">
+    <p>&copy; Roberto Raggio | Todos los derechos reservados</p>
+  </div>
+
+</footer>
+    <!--bootstrap 5.1.3-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--Jquery 3.6.0-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--Canva JS-->
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <!--Javascript del Proyecto-->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
